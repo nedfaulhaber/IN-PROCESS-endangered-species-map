@@ -1,0 +1,43 @@
+body {
+  background: url(../img/world-map.png);
+  background-color: #6AA392;
+}
+
+/*.masthead {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  opacity: 0.8;
+}*/
+
+.animal {
+  border-radius: 20px;
+  width: 175px;
+  height: 125px;
+  transition-property: width, background-color;
+  transition-duration: .5s;
+  position: relative;
+}
+
+.animal:hover {
+  border-radius: 20px;
+  width: 400px;
+  height: 125px;
+  background-color: #B9E9A0;
+  position: absolute;
+}
+
+.animal img {
+  border-radius: 20px;
+}
+
+.blink182 {
+  position: absolute;
+  top: 750px;
+  left:725px;
+}
+
+/*.blink182:hover::after {
+  content: "Blink 182 is dead";
+  text-align: right;
+}*/
